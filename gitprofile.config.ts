@@ -57,26 +57,26 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
+    linkedin: 'yazid-munali-aa4b1527a',
+    twitter: '',
+    mastodon: 'azid_munali@mastodon.social',
+    researchGate: 'Yazid-Munali',
     facebook: '',
-    instagram: '',
+    instagram: 'yazidmaydani',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://zaid404.github.io/gitprofile/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'yazid.munali@uinsu.ac.id',
   },
   resume: {
     fileUrl:
@@ -124,10 +124,10 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
+      institution: 'Universitas Islam Negeri Sumatera Utara',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      from: '2017',
+      to: '2024',
     },
     {
       institution: 'Institution Name',
