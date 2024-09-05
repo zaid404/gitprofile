@@ -63,6 +63,8 @@ const CONFIG = {
     researchGate: 'Yazid-Munali',
     facebook: '',
     instagram: 'yazidmaydani',
+    kompasiana: 'yazidmunali',
+
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
