@@ -86,6 +86,10 @@ const CONFIG = {
   },
   skills: [
     'PHP',
+    'Python',
+    'Java',
+    'C',
+    'Pascal',
     'Laravel',
     'JavaScript',
     'React.js',
@@ -93,10 +97,13 @@ const CONFIG = {
     'Nest.js',
     'MySQL',
     'PostgreSQL',
+    'Flask',
+    'Python',
     'Git',
     'Docker',
     'PHPUnit',
     'CSS',
+    'HTML',
     'Antd',
     'Tailwind',
   ],
@@ -218,12 +225,12 @@ certifications: [
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'zaid404', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'kompasiana', // medium | dev|kompasiana
+    username: 'yazidmunali', // to hide blog section, keep it empty
+    limit: 4, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-0K757SCT0Y', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
