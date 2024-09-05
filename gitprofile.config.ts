@@ -5,9 +5,9 @@ const CONFIG = {
     username: 'zaid404', // Your GitHub org/user name. (This is the only required config)
   },
   /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
+   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/zaid404/zaid404.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
+   * for example your repository is at https://github.com/zaid404/portfolio, then set base to '/portfolio/'.
    */
   base: '/gitprofile/',
   projects: {
@@ -20,12 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['zaid404/my-project1', 'zaid404/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['zaid404/gitprofile', 'zaid404/pandora'], // List of repository names to display. example: ['zaid404/my-project1', 'zaid404/my-project2']
       },
     },
     external: {
@@ -57,26 +57,26 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
+    linkedin: 'yazid-munali-aa4b1527a',
+    twitter: '',
+    mastodon: 'yazid_munali@mastodon.social',
+    researchGate: 'Yazid-Munali',
     facebook: '',
-    instagram: '',
+    instagram: 'yazidmaydani',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://zaid404.github.io/gitprofile/',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'yazid.munali@uinsu.ac.id',
   },
   resume: {
     fileUrl:
@@ -114,52 +114,116 @@ const CONFIG = {
       companyLink: 'https://example.com',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+certifications: [
+  {
+    name: 'Alibaba Cloud DataWorks - Basic Knowledge',
+    body: 'Alibaba Cloud Global',
+    year: 'August 2024',
+    expiration: 'August 2026',
+    credential_id: 'ACFW229240800134891',
+    link: 'https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_25865530b9840e144a52b2db4dc42c96.jpg',
+    skills: 'Big Data',
+  },
+  {
+    name: 'Alibaba Cloud\'s Machine Learning Platform: PAI (Exam)',
+    body: 'Alibaba Cloud Global',
+    year: 'August 2024',
+    expiration: 'August 2026',
+    link: 'https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_77a36f33112e96cb13c8a3b3eb2b24ac.png',
+  },
+  {
+    name: 'Beginner\'s Guide to MySQL',
+    body: 'Alibaba Cloud',
+    year: 'August 2024',
+    expiration: 'August 2026',
+    link: 'https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_e35c8bc05f525899ad04ea9bb3b42d3f.png',
+  },
+  {
+    name: 'Junior Web Developer (Vocational School Graduate Academy)',
+    body: 'Digital Talent Scholarship',
+    year: 'August 2024',
+    credential_id: '19391101040-45',
+    link: 'https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_e35c8bc05f525899ad04ea9bb3b42d3f.png',
+  },
+  {
+    name: 'Using ECS to Construct a Dynamic Website (Exam)',
+    body: 'Alibaba Cloud',
+    year: 'August 2024',
+    expiration: 'August 2026',
+    credential_id: 'ACFW125240800135014',
+    link: 'https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_fb35dccf57e706ea09c23afa9e33792b.png',
+  },
+  {
+    name: 'Belajar Prinsip Pemrograman SOLID',
+    body: 'Dicoding Indonesia',
+    year: 'July 2024',
+    expiration: 'July 2027',
+    credential_id: 'KEXL1N0QRXG2',
+    link: 'https://www.dicoding.com/certificates/KEXL1N0QRXG2',
+  },
+  {
+    name: 'Penyusunan Data untuk Kebijakan Kesehatan bagi Data Scientist',
+    body: 'Rumah Siap Kerja',
+    year: 'September 2023',
+    expiration: 'September 2026',
+    link: 'https://kelas.rumahsiapkerja.com/student-certificate/download-qrcode/a445cbce0aa84e86b5c4ce5e722938f0/',
+  },
+  {
+    name: 'Mengelola Website untuk Pengembang Perangkat Lunak',
+    body: 'Cybers Academy',
+    year: 'August 2023',
+    expiration: 'August 2026',
+    credential_id: '312910552/INV-KR/SID/VIII/20230802/ 45149/37',
+    skills: 'Mengelola Website',
+  },
+  {
+    name: 'Belajar Dasar Structured Query Language (SQL)',
+    body: 'Dicoding Indonesia',
+    year: 'July 2023',
+    expiration: 'July 2026',
+    credential_id: 'JLX1DRKLJZ72',
+    link: 'https://www.dicoding.com/certificates/JLX1DRKLJZ72',
+  },
+  {
+    name: 'Memulai Pemrograman Dengan C',
+    body: 'Dicoding Indonesia',
+    year: 'July 2023',
+    expiration: 'July 2026',
+    credential_id: '1OP80RMKQXQK',
+    link: 'https://www.dicoding.com/certificates/1OP80RMKQXQK',
+  },
+  {
+    name: 'Memulai Pemrograman Dengan Java',
+    body: 'Dicoding Indonesia',
+    year: 'July 2023',
+    expiration: 'July 2026',
+    credential_id: '0LZ09YMKNZ65',
+    link: 'https://www.dicoding.com/certificates/0LZ09YMKNZ65',
+  }
+],
   educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+     {
+      institution: 'Universitas Islam Negeri Sumatera Utara',
+      degree: 'Bachelor of Computer Science',
+      from: '2017',
+      to: '2024',
+    }
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Classification of Hypertension Using Naïve Bayes Method with Data Discretization Approach Risk Factors',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'Jurnal Sistem Cerdas',
+      authors: 'Yazid Munali, Armansyah',
+      link: 'https://doi.org/10.37396/jsc.v7i1.381',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+        'This study aims to classify hypertensive patients in an effort to reduce the prevalence of hypertension in Indonesia by aiding in early detection of the disease and increasing awareness of hypertension among the Indonesian population. By using the Naïve Bayes method and implementing data discretization of risk factors,',
+    }
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'zaid404', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -235,7 +299,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/zaid404/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
