@@ -66,6 +66,7 @@ export const getSanitizedConfig = (
         mastodon: config?.social?.mastodon,
         facebook: config?.social?.facebook,
         instagram: config?.social?.instagram,
+        kompasiana: config?.social?.kompasiana,
         reddit: config?.social?.reddit,
         threads: config?.social?.threads,
         youtube: config?.social?.youtube,
