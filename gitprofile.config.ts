@@ -52,9 +52,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
+    title: 'Portfolio of Yazid Munali ',
+    description: ' Fresh graduate in Computer Science with a strong interest in Data Science and expertise in Machine Learning algorithms',
+    imageURL: 'https://media.licdn.com/dms/image/v2/D4E03AQEGZ4pWwH74wA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725361941797?e=1730937600&v=beta&t=QWnAuQCeT0mEOa4xXoBPD8I79alv8KBUnmD--krNm3c',
   },
   social: {
     linkedin: 'yazid-munali-aa4b1527a',
