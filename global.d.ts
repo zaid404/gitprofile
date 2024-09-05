@@ -136,6 +136,11 @@ interface Social {
    * Instagram
    */
   instagram?: string;
+  
+    /**
+   * kompasiana
+   */
+  kompasiana?: string;
 
   /**
    * Reddit
