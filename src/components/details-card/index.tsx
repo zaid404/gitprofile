@@ -266,6 +266,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://www.instagram.com/${social.instagram}`}
                 />
               )}
+              {social?.kompasiana && (
+                <ListItem
+                  icon={<AiFillGithub />} // Replace with Kompasiana icon if available
+                  title="Kompasiana:"
+                  value={social.kompasiana}
+                  link={`https://www.kompasiana.com/${social.kompasiana}`}
+                />
+              )}
               {social?.reddit && (
                 <ListItem
                   icon={<FaReddit />}
