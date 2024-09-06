@@ -33,14 +33,13 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Currency Prediction Using Naive Bayes Classification',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'This project aims to develop a predictive model for forecasting currency exchange rates using the Naive Bayes algorithm. The model is designed to classify the direction of currency movements (e.g., appreciation or depreciation) based on historical data and other macroeconomic indicators.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
+            'https://walletinvestorstorage.b-cdn.net/forecast-graphs/fe/forex-usd-idr-forecast-components.png',
+          link: 'https://github.com/zaid404',
+        },        {
           title: 'Project Name',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
@@ -146,7 +145,7 @@ certifications: [
     body: 'Digital Talent Scholarship',
     year: 'August 2024',
     credential_id: '19391101040-45',
-    link: 'https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_e35c8bc05f525899ad04ea9bb3b42d3f.png',
+    link: 'https://digitalent.kominfo.go.id/cek-sertifikat#',
   },
   {
     name: 'Using ECS to Construct a Dynamic Website (Exam)',
