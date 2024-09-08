@@ -268,7 +268,7 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
               )}
               {social?.kompasiana && (
                 <ListItem
-                  icon={<img src="/kompasiana.png" alt="Kompasiana" style={{ width: '24px', height: '24px' }} />} // Replace with actual Kompasiana icon
+                  icon={<img src="public/kompasiana.png" alt="Kompasiana" style={{ width: '24px', height: '24px' }} />} // Replace with actual Kompasiana icon
                   title="Kompasiana:"
                   value={social.kompasiana}
                   link={`https://www.kompasiana.com/${social.kompasiana}`}
